@@ -4,14 +4,12 @@
 
 .column {
   float: left;
-  /*width: 25%;*/
+  width: 33.33%;
+  margin-bottom: 20%;
   padding: 5px;
-  width:100px; 
-  height:100px;
 }
 
- Clearfix (clear floats) 
-.row::after {
+.clearfix::after {
   content: "";
   clear: both;
   display: table;
